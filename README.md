@@ -4,13 +4,14 @@
 
 **Team members**: K.Vikas Mahender, Mukund Varma T, Mukesh V
 
-- Our proposed solution's audio samples can be found in this [link]()
+- Our proposed solution's audio samples can be found in this [link](https://mukundvarmat.github.io/FlipkartGrid2.0/)
 - Solution Description - [video file]()
 
 ## Best model (extracts the speech and noise seperately from the mixture)
 
-WER scores - [CSV]()
-Denoised samples for given data can be found [here]()
+- WER scores - [CSV](./seperation/WER_result.csv) - **Avg WER: 0.565**
+- Denoised samples for given data can be found [here](seperation/denoised/)
+- Transcripts for the denoised samples can be found [here](seperation/transcripts)
 
 **To run inference code on best model**:
 
@@ -36,8 +37,25 @@ optional arguments:
 
 ## UNet Model (predicts clean samples from the mixture)
 
-WER scores - [CSV]()
-Denoised samples for given data can be found [here]()
+- WER scores - [CSV](./enhancement/WER_result.csv) - **Avg WER: 0.768**
+- Denoised samples for given data can be found [here](enhancement/denoised/)
+- Transcripts for the denoised samples can be found [here](enhancement/transcripts)
+
+**To run inference code**:
+
+`python3 enhancement/infer.py --i <file/folder>`
+
+other options
+
+```
+usage: infer.py [-h] [-i INPUT_FILE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT_FILE, --input_file INPUT_FILE
+                        path/to/noisy_file_dir
+
+```
 
 **Note: All training scripts and other model files can be found in the respective folders**
 

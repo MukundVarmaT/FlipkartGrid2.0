@@ -58,9 +58,8 @@ class Trainer:
             noisy, clean, noise = sample["noisy"].to(self.device), sample["clean"].to(self.device), sample["noise"].to(self.device)
 
             sep_clean, sep_noise = self.model(noisy.float())
-            loss = torch.stack([sisnr(sep_clean, clean), sisnr(sep_noise, noise)])
-            loss = torch.max(loss, dim=0)[0]
-            loss = -torch.sum(loss)/len(noisy)
+            loss = (sisnr(sep_clean, clean) + sisnr(sep_noise, noise))/2
+            loss = -torch.mean(loss)
 
             loss.backward()
             self.optimizer.step()

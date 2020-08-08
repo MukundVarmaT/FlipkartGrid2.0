@@ -84,6 +84,5 @@ if __name__ == "__main__":
             transcript = ASR(os.path.join(audio_out, os.path.basename(f).split(".")[0] + "_clean.wav"))
             with open(os.path.join(trans_out, os.path.basename(f).split(".")[0] + ".json"), 'w') as outfile:
                 json.dump(transcript, outfile)
-        exit()
 
     print("Time stats: min: {:.2f} mean: {:.2f} max: {:.2f}".format(min(time_counter), sum(time_counter)/len(time_counter), max(time_counter)))

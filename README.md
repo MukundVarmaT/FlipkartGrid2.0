@@ -24,11 +24,11 @@ usage: infer.py [-h] [--ckpt CKPT] --input INPUT [--asr ASR] [--sr SR]
 
 optional arguments:
   -h, --help       show this help message and exit
-  --ckpt CKPT      path to checkpoint
+  --ckpt CKPT      path to checkpoint (default best.pth)
   --input INPUT    path to input folder/file
-  --asr ASR        flag for asr on/off
-  --sr SR          sampling_rate
-  --format FORMAT  audio format
+  --asr ASR        flag for asr on/off (default False)
+  --sr SR          sampling_rate (default 16000)
+  --format FORMAT  audio format (default *.wav)
   --output OUTPUT  path to output folder
 ```
 

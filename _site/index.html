@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>FlipkartGrid-2.0 Noise Suppression Challenge | Team Comrade’s solution to the noise suppression challenge conducted by Flipkart</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="FlipkartGrid-2.0 Noise Suppression Challenge" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Team Comrade’s solution to the noise suppression challenge conducted by Flipkart" />
+<meta property="og:description" content="Team Comrade’s solution to the noise suppression challenge conducted by Flipkart" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="FlipkartGrid-2.0 Noise Suppression Challenge" />
+<script type="application/ld+json">
+{"description":"Team Comrade’s solution to the noise suppression challenge conducted by Flipkart","@type":"WebSite","headline":"FlipkartGrid-2.0 Noise Suppression Challenge","name":"FlipkartGrid-2.0 Noise Suppression Challenge","url":"http://localhost:4000/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=851fd518c5f7cef5462cd08528828c00457663c6">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      <h1 align="center">
+<p>Flipkart Grid 2.0 Noise Suppression Challenge</p>
+</h1>
+
+<p class="text">
+<b>Team name</b>: Comrades <br />
+<b>Team members</b>: K.Vikas Mahender, Mukund Varma T, Mukesh V
+</p>
+
+<p class="text">Given are noisy audio samples along with the corresponding denoised output from the model. We include samples from our best model along with other experiments as well. The samples are hand-picked by us to showcase our model's capability.</p>
+
+<h2 id="-model-samples">🎧 Model samples</h2>
+
+<h3 id="best-model">Best Model</h3>
+
+<p class="text">From the audio samples given by Flipkart</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Noisy input</th>
+      <th style="text-align: center">predicted clean</th>
+      <th style="text-align: center">predicted noise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_1.mp3" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_1.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_2.mp3" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_2.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_2.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_3.mp3" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_3.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_3.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="text">Harder samples</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Noisy input</th>
+      <th style="text-align: center">predicted clean</th>
+      <th style="text-align: center">predicted noise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_1.mp3" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_1.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_2.mp3" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_2.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_2.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_3.mp3" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_3.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_3.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>

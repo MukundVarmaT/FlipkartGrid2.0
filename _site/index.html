@@ -21,7 +21,7 @@
 {"description":"Team Comrade’s solution to the noise suppression challenge conducted by Flipkart","@type":"WebSite","headline":"FlipkartGrid-2.0 Noise Suppression Challenge","name":"FlipkartGrid-2.0 Noise Suppression Challenge","url":"http://localhost:4000/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=851fd518c5f7cef5462cd08528828c00457663c6">
+    <link rel="stylesheet" href="/assets/css/style.css?v=f4f7ee82c599fbf67e9ae462d749b2ab5bd1e27f">
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -32,16 +32,17 @@
 
 <p class="text">
 <b>Team name</b>: Comrades <br />
-<b>Team members</b>: K.Vikas Mahender, Mukund Varma T, Mukesh V
+<b>Team members</b>: K Vikas Mahendar, Mukund Varma T, Mukesh V <br />
+<b>College</b>: IIT Madras
 </p>
 
 <p class="text">Given are noisy audio samples along with the corresponding denoised output from the model. We include samples from our best model along with other experiments as well. The samples are hand-picked by us to showcase our model's capability.</p>
 
 <h2 id="-model-samples">🎧 Model samples</h2>
 
-<h3 id="best-model">Best Model</h3>
+<h3 id="best-model-seperates-into-clean-and-noise">Best Model (seperates into clean and noise)</h3>
 
-<p class="text">From the audio samples given by Flipkart</p>
+<p class="text"><b>Audio samples given by Flipkart</b></p>
 
 <table>
   <thead>
@@ -70,7 +71,7 @@
   </tbody>
 </table>
 
-<p class="text">Harder samples</p>
+<p class="text"><b>Handpicked harder samples</b></p>
 
 <table>
   <thead>
@@ -82,19 +83,73 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_1.mp3" controls="" preload=""></audio></td>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_1.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_4.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_4.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_4.wav" controls="" preload=""></audio></td>
     </tr>
     <tr>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_2.mp3" controls="" preload=""></audio></td>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_2.wav" controls="" preload=""></audio></td>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_2.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_5.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_5.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_5.wav" controls="" preload=""></audio></td>
     </tr>
     <tr>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_3.mp3" controls="" preload=""></audio></td>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_3.wav" controls="" preload=""></audio></td>
-      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_3.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noisy_6.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/clean_6.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/1/noise_6.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="other-experiments">Other experiments</h2>
+
+<h3 id="modified-unet-directly-predicts-clean-sample">Modified UNet (Directly predicts clean sample)</h3>
+
+<p class="text"><b>Audio samples given by Flipkart</b></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Noisy input</th>
+      <th style="text-align: center">predicted clean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/noisy_1.mp3" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/clean_1.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/noisy_2.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/clean_2.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/noisy_3.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/clean_3.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="text"><b>Samples from generated dataset</b></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Noisy input</th>
+      <th style="text-align: center">predicted clean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/noisy_4.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/clean_4.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/noisy_5.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/clean_5.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/noisy_6.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="http://localhost:4000/assets/audio/2/clean_6.wav" controls="" preload=""></audio></td>
     </tr>
   </tbody>
 </table>

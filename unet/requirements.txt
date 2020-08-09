@@ -1,0 +1,9 @@
+pandas==1.0.3
+pesq==0.0.1
+jiwer==2.1.0
+librosa==0.7.2
+requests==2.22.0
+SoundFile==0.10.3.post1
+tqdm==4.45.0
+torch==1.5.0+cu101
+numpy==1.17.4

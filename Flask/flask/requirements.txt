@@ -1,0 +1,7 @@
+numpy==1.13.3
+Flask_SocketIO==4.3.1
+librosa==0.7.2
+torch==1.5.1+cpu
+Flask_Cors==3.0.8
+PyJWT==1.7.1
+secrets==1.0.2

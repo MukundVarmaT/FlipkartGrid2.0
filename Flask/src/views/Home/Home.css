@@ -1,0 +1,39 @@
+.list{
+    padding: 10px;
+    margin-top: 80px;
+    max-width: fit-content;
+    font-family: 'Kulim Park',sans-serif;
+    border:10px solid black;
+    border-radius: 5%;
+}
+h1{
+    font-family: 'Kulim Park',sans-serif;
+    font-size: 80px;
+    color: black;
+}
+.vline{
+    margin-top: 180%;
+    border-left: 10px solid black;
+    height: 25vh;
+}
+img{
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    opacity: 0.4;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    .vline{
+        visibility: hidden;
+    }
+  }

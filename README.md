@@ -1,13 +1,17 @@
 # Flipkart Grid 2.0
 
-Winning Solution for the [Flipkart Grid 2.0 - Software Developement Challenge](https://dare2compete.com/o/flipkart-grid-20-software-development-challenge-flipkart-grid-20-flipkart-113664)
+**Winning Solution for the [Flipkart Grid 2.0 - Software Developement Challenge](https://dare2compete.com/o/flipkart-grid-20-software-development-challenge-flipkart-grid-20-flipkart-113664)**
 
 |   |   |
 |---|---|
 |**Team Name**|Comrades|
 |**Team Members**|[Mukund](https://github.com/MukundVarmaT), [Mukesh](https://github.com/Mukesh-V), [Vikas](https://github.com/SanVik2000)|
 
-You can find some audio samples here: [link](https://mukundvarmat.github.io/FlipkartGrid2.0/)
+Proposed solution for Denoising and Noise Cancellation
+
+![](assets/gifs/1.gif)
+
+**You can find some audio samples here:** [link](https://mukundvarmat.github.io/FlipkartGrid2.0/)
 
 ## Contents
 

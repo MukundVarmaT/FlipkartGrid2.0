@@ -1,0 +1,9 @@
+sampling_rate: 16000
+audioformat: "*.wav"
+audio_length: 10
+silence_length: 0.2
+snr_lower: 1
+snr_upper: 20
+noise_dir: "./dataset/noise/"
+clean_dir: "./dataset/clean/"
+num_files: 15000

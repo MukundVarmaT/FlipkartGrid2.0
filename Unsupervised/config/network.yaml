@@ -1,0 +1,11 @@
+output_dir : output/
+snr_lower : 1
+snr_upper : 20
+clean_dir : dataset/clean
+noisy_dir : dataset/noisy
+batch_size : 12
+num_workers : 4
+epochs : 100
+sampling_rate : 16000
+silence_length : 0.1
+lr: 0.0003

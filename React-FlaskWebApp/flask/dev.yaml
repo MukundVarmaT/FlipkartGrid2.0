@@ -1,0 +1,13 @@
+model:          <DEV_CONFIG>
+index_seed:     <DEV_CONFIG>
+
+jwt_secret :    <DEV_CONFIG>
+socket_secret:  <DEV_CONFIG>
+
+host:           <DEV_CONFIG>
+username:       <DEV_CONFIG>
+password:       <DEV_CONFIG>
+
+database:       <DEV_CONFIG>
+table:          <DEV_CONFIG>
+column:         <DEV_CONFIG>

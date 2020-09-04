@@ -1,0 +1,10 @@
+Flask_Cors==3.0.8
+Flask_SocketIO==4.3.1
+torch==1.5.1+cpu
+numpy==1.13.3
+librosa==0.7.2
+mysql_connector_repackaged==0.3.1
+PyJWT==1.7.1
+PyYAML==5.3.1
+secrets==1.0.2
+gevent-websocket==0.10.1

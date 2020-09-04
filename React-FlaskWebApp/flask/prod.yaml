@@ -1,0 +1,13 @@
+model:          <PRODUCTION_CONFIG>
+index_seed:     <PRODUCTION_CONFIG>
+
+jwt_secret :    <PRODUCTION_CONFIG>
+socket_secret:  <PRODUCTION_CONFIG>
+
+host:           <PRODUCTION_CONFIG>
+username:       <PRODUCTION_CONFIG>
+password:       <PRODUCTION_CONFIG>
+
+database:       <PRODUCTION_CONFIG>
+table:          <PRODUCTION_CONFIG>
+column:         <PRODUCTION_CONFIG>

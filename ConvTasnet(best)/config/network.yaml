@@ -1,0 +1,30 @@
+noisy_dir: "dataset/processed/noisy"
+clean_dir: "dataset/processed/clean"
+noise_dir: "dataset/processed/noise"
+output_dir: "output_save"
+audio_format: ".wav"
+num_epochs: 200
+batch_size: 2
+lr: 0.001
+weight_decay: 0.00001
+factor: 0.5
+patience: 2
+min_lr: 0.00000001
+sampling_rate: 16000
+chunk_size: 32000
+num_workers: 1
+save_every: 500
+step_every: 10000
+model_params:
+  delay_frame: 31
+  in_dim: 1
+  enc_dim: 512
+  window: 32
+  shift: 16
+  block_dim: 128
+  block_kernel: 3
+  hidden_dim: 512
+  num_blocks: 8
+  num_repeats: 3
+  non_casual: 5
+  casual: True

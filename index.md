@@ -36,7 +36,6 @@ audio { width: 200px; }
 
 <p class="text"><b>Live Demo</b></p>
 
-
 <video style="width: 100%;" controls="controls">
   <source src="{{ site.url }}/assets/video/demo.mp4" type="video/mp4">
   Your browser does not support the HTML5 Video element.

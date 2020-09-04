@@ -59,7 +59,7 @@ class Trainer:
 
             sep_clean, sep_noise = self.model(noisy.float())
             loss = (sisnr(sep_clean, clean) + sisnr(sep_noise, noise))/2
-            loss = -torch.mean(loss)
+            loss = -torch.sum(loss)/noisy.shape[0]
 
             loss.backward()
             self.optimizer.step()

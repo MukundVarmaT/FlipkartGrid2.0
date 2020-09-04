@@ -11,7 +11,7 @@ You can find some audio samples here: [link]()
 
 ## Contents of our repository
 
-- ConvTasNet (best model) - [code](), [docs]()
-- Unsupervised Model (**experimental - not a part of our submission**) - [code](), [docs]()
-- U-Net Model - [code](), [docs]()
-- Cycle GAN (**method is not accurate but still here is the code. It has some cool ideas in it**) - [code](), [docs]()
+- ConvTasNet (best model) - [code](./ConvTasnet(best)/), [docs]()
+- Unsupervised Model (**experimental - not a part of our submission**) - [code](./Unsupervised/), [docs]()
+- U-Net Model - [code](./other-expts/U-Net/), [docs]()
+- Cycle GAN (**method is not accurate but still here is the code. It has some cool ideas in it**) - [code](./other-expts/Cycle-GAN/), [docs]()

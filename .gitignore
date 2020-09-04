@@ -1,2 +1,7 @@
-dataset/
-__pycache__/
+*.gem
+.bundle
+.jekyll-cache
+.sass-cache
+_asset_bundler_cache
+_site
+Gemfile.lock

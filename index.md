@@ -8,7 +8,7 @@
 <b>College</b>: IIT Madras
 </p>
 
-<p class="text">Given are noisy audio samples along with the corresponding denoised output from the model. We include samples from our best model along with other experiments as well. The samples are hand-picked by us to showcase our model's capability.</p>
+<p class="text">Given are noisy audio samples along with the corresponding denoised output from different models. Some of them are very noisy so ensure you are not playing them at very high volumes.</p>
 
 ## 🎧 Model samples
 
@@ -34,6 +34,14 @@ audio { width: 200px; }
 | Linus Tech Tips (English) + Music |<audio src="{{ site.url }}/assets/audio/10.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/10_clean.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/10_noise.wav" controls preload></audio>|
 | Flipkart Ad (Hindi) + Music |<audio src="{{ site.url }}/assets/audio/11.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/11_clean.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/11_noise.wav" controls preload></audio>|
 
+<p class="text"><b>Live Demo</b></p>
+
+
+<video style="width: 100%;" controls="controls">
+  <source src="{{ site.url }}/assets/video/demo.mp4" type="video/mp4">
+  Your browser does not support the HTML5 Video element.
+</video>
+
 ### Simple U-Net model trained using an unsupervised scheme
 
 <p class="text"><b>Samples from a model trained from scratch to validate our unsupervised training proceedure.</b></p>
@@ -44,3 +52,14 @@ audio { width: 200px; }
 |<audio src="{{ site.url }}/assets/audio/13.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/13_sup.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/13_unsup.wav" controls preload></audio>|
 |<audio src="{{ site.url }}/assets/audio/14.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/14_sup.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/14_unsup.wav" controls preload></audio>|
 
+## Other Experiments: 
+
+### U-Net model
+
+<p class="text"><b>Samples from our UNet model (supervised)</b></p>
+
+| Noisy input | Predicted clean |
+|:---:|:---:|
+|<audio src="{{ site.url }}/assets/audio/15.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/15_unet_clean.wav" controls preload></audio>|
+|<audio src="{{ site.url }}/assets/audio/16.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/16_unet_clean.wav" controls preload></audio>|
+|<audio src="{{ site.url }}/assets/audio/17.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/17_unet_clean.wav" controls preload></audio>|

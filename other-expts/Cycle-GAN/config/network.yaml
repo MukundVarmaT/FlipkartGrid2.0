@@ -1,0 +1,9 @@
+num_epochs: 200
+batch_size: 2
+generator_lr: 0.0002
+discriminator_lr: 0.0001
+decay_iter: 200000
+start_decay: 3125
+cycle_loss_lambda: 10
+identity_loss_lambda: 5
+identity_loss_stop: 2500

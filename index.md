@@ -41,7 +41,7 @@ audio { width: 200px; }
   Your browser does not support the HTML5 Video element.
 </video>
 
-### Simple U-Net model trained using an unsupervised scheme
+### Simple U-Net model trained using an unsupervised scheme (experimental not a part of submission)
 
 <p class="text"><b>Samples from a model trained from scratch to validate our unsupervised training proceedure.</b></p>
 

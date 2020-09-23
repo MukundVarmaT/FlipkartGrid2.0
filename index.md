@@ -50,15 +50,3 @@ audio { width: 200px; }
 |<audio src="{{ site.url }}/assets/audio/12.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/12_sup.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/12_unsup.wav" controls preload></audio>|
 |<audio src="{{ site.url }}/assets/audio/13.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/13_sup.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/13_unsup.wav" controls preload></audio>|
 |<audio src="{{ site.url }}/assets/audio/14.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/14_sup.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/14_unsup.wav" controls preload></audio>|
-
-## Other Experiments: 
-
-### U-Net model
-
-<p class="text"><b>Samples from our UNet model (supervised)</b></p>
-
-| Noisy input | Predicted clean |
-|:---:|:---:|
-|<audio src="{{ site.url }}/assets/audio/15.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/15_unet_clean.wav" controls preload></audio>|
-|<audio src="{{ site.url }}/assets/audio/16.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/16_unet_clean.wav" controls preload></audio>|
-|<audio src="{{ site.url }}/assets/audio/17.wav" controls preload></audio>|<audio src="{{ site.url }}/assets/audio/17_unet_clean.wav" controls preload></audio>|
